@@ -1,0 +1,30 @@
+-- AVANCE DE PROYECTO
+CREATE TABLE cliente;
+USE cliente;
+
+CREATE TABLE cliente(
+idcliente INT NOT NULL AUTO_INCREMENT,
+Nombre VARCHAR(45) NULL,
+Apellidos VARCHAR(45) NULL,
+Rfc VARCHAR(45) NULL,
+direccion VARCHAR(45) NULL,
+Fecha_nacimiento VARCHAR(45) NULL,
+PRIMARY KEY(cliente)
+);
+
+CREATE TABLE proveedores(
+idproveedores INT NOT NULL AUTO_INCREMENT,
+Nie VARCHAR(45) NULL,
+Nombre VARCHAR(45) NULL,
+Direccion VARCHAR(45) NULL,
+PRIMARY KEY(proveedores)
+);
+
+CREATE TABLE productos(
+idproductos INT NOT NULL AUTO_INCREMENT,
+Nombre VARCHAR(45) NULL,
+Codigo VARCHAR(45) NULL,
+Precio_unitario VARCHAR(45) NULL,
+PRIMARY KEY(productos)
+);
+
